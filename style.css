@@ -1,0 +1,143 @@
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100%;
+}
+
+body {
+    /* background-image: linear-gradient(135deg, #ff87b7 0%, #94fff3 90%); */
+    background-image: linear-gradient(90deg, #001d53 10%, #5594ff 90%);
+}
+
+.title {
+    margin-top: 20px;
+    color: #fff;
+    font-family: 'zodiak', sans-serif;
+    font-size: 50px;
+    word-spacing: 5;
+    text-shadow: 1px 1px 5px #00000099;
+}
+
+button {
+    border: 0;
+    background: #fff;
+    color: #00000099;
+    border-radius: 2px;
+    font-family: 'satoshi';
+    padding: 10px;
+    font-size: 20px;
+    margin: 5px;
+}
+
+button:hover {
+    font-weight: 800;
+    cursor: pointer;
+    color: #000;
+    transform: translateY(-3px);
+    transition: all 0.3s;
+}
+
+.outer {
+    margin-top: 5px;
+    background-color: #ffffff75;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    border-radius: 25px;
+}
+
+.news:hover {
+    background-color: #001d53;
+    box-shadow: 2px 2px 5px #000;
+}
+
+h1 {
+    width: 75%;
+    font-family: 'satoshi';
+}
+
+.line {
+    height: 1px;
+    background-color: #000;
+}
+
+nav {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    display: none;
+}
+
+img {
+    margin-top: 15px;
+    width: 400px;
+    height: auto;
+    display: inline;
+    position: relative;
+    border-radius: 12px;
+}
+
+h1 {
+    font-size: 25px;
+    font-family: 'satoshi';
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    opacity: 75%;
+    font-size: 14px;
+    font-family: 'satoshi';
+    margin-bottom: 10px;
+}
+
+hr {
+    width: 50%;
+    height: 1px;
+    background-color: #00000090;
+    border: none;
+    margin-top: 0;
+    padding-top: 0;
+    margin-bottom: 20px;
+}
+
+.top {
+    display: none;
+}
+
+svg {
+    width: 50px;
+    height: auto;
+}
+
+#particles-js {
+    position: relative;
+    z-index: -5;
+    max-height: 100vh;
+}
+
+center {
+    z-index: 5;
+    position: sticky;
+}
+
+p {
+    font-family: 'satoshi';
+    margin-left:5%;
+    margin-right:5%;
+    color:#fff;
+}
+
+input[type="text"]{
+    font-size: 28px;
+    border-radius: 5px;
+    border:1px solid #eee;
+    padding-left: 15px;
+    font-family: 'satoshi';
+}
